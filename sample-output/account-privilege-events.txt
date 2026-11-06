@@ -1,0 +1,12 @@
+Sanitized sample output from Get-AccountSecurityEvents.ps1
+
+TimeCreated           EventId EventType                       Account    Domain  LogonId   LogonType Target             Group
+-----------           ------- ---------                       -------    ------  -------   --------- ------             -----
+2026-11-05 15:19:06   4624    Successful logon                lab_admin  LAB-PC  0x25ABCD  11
+2026-11-05 15:19:06   4672    Special privileges assigned     lab_admin  LAB-PC  0x25ABCD
+2026-11-06 11:42:43   4720    User account created            lab_admin  LAB-PC  0x25ABCD            security_lab_user
+2026-11-06 11:44:01   4732    Member added to local group     lab_admin  LAB-PC  0x25ABCD            -                  Administrators
+2026-11-06 14:32:36   4733    Member removed from local group lab_admin  LAB-PC  0x25ABCD            -                  Administrators
+2026-11-06 14:32:47   4726    User account deleted            lab_admin  LAB-PC  0x25ABCD            security_lab_user
+
+Note: usernames, computer names, Logon IDs, and other identifying values have been sanitized.
